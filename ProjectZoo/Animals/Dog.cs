@@ -21,6 +21,8 @@ namespace ProjectZoo.Animals
             return "Имя: " + Name + "\nЛет: " + Age + "\nТип: " + TypeOfFood + "\nПол: " + Individual +
                 "\nПорода: " + Breed;
         }
+
+
         public override string move()
         {
             return Name + " бежит";

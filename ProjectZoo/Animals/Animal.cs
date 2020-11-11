@@ -28,6 +28,7 @@ namespace ProjectZoo.Animals
             Name = name;
         }
 
+        // Абстрактный метод на основе интерфейса
         public abstract string move();
 
     }

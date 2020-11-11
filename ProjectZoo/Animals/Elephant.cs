@@ -22,6 +22,7 @@ namespace ProjectZoo.Animals
                 "\nДлина хобота: " + lengthTrunk;
         }
 
+        // Абстрактный метод, переопределяемых в наследниках класса Animal
         public override string move()
         {
             return Name + " шагает";
